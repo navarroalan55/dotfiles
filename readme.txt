@@ -15,7 +15,7 @@ deepin-screenshot-copy-patch
 
 Files to upload to Git:
 {
-/etc/lightdm/slim-greeter.conf
+/etc/lightdm/slick-greeter.conf
 ~/.zshrc
 ~/.Xresources
 ~/scripts
