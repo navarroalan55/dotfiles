@@ -39,3 +39,9 @@ scheme it generated into .Xresources, I had to do that manually, the color schem
 # additional information
 this only applies if using a laptop
 go to /etc/default/grub .... add or edit GRUB_CMDLINE_LINUX_DEFAULT="quiet splash snd_hda_intel.dmic_detect=0"
+
+# to setup a new machine
+git clone --bare https://github.com/navarroalan55/dotfiles.git
+$HOME/.dotfiles
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+dotfiles checkout	
